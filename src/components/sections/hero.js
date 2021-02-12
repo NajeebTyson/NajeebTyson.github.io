@@ -51,7 +51,7 @@ const Hero = () => {
   const two = <h2 className="big-heading">Najeeb Ullah Shah</h2>;
   const three = <h1>You can call me</h1>;
   const four = <h2 className="medium-heading">Najeeb Tyson</h2>;
-  const five = <h3 className="big-heading">I build backbones of the things you see on the screen.</h3>;
+  const five = <h3 className="big-heading">I build backbones for the things you see on the screen.</h3>;
   const six = (
     <p>
       I'm a software engineer based in Islamabad, Pakistan, I like to develop Back-end for systems,
