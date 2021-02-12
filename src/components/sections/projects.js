@@ -171,8 +171,9 @@ const Projects = () => {
   const projectsToShow = showMore ? projects : firstSix;
 
   return (
-    <StyledProjectsSection>
-      <h2 ref={revealTitle}>My Certifications</h2>
+    <StyledProjectsSection id="certifications">
+      <h2 className="numbered-heading" ref={revealTitle}>My Certifications</h2>
+      {/*<h2 ref={revealTitle}>My Certifications</h2>*/}
 
       <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
         view the archive
